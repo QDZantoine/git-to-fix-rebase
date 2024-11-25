@@ -22,5 +22,21 @@
       </thead>
       <tbody></tbody>
     </table>
+    <form id="food-form">
+      <fieldset>
+        <label for="food-input">Aliment</label>
+        <input list="food-list" id="food-input" name="food-input" />
+
+        <datalist id="food-list">
+        </datalist>
+
+        <label for="food-quantity">Quantité (grammes)</label>
+        <input type="number" id="food-quantity" min="1" />
+      </fieldset>
+
+      <button type="submit">Ajouter un ingrédient</button>
+    </form>
+
+    <script src="script.js"></script>
   </body>
 </html>
